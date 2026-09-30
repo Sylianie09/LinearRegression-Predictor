@@ -5,7 +5,7 @@ import numpy as np
 model = joblib.load('model2.joblib')
 scaler = joblib.load('scaler(1).joblib')
 
-st.title('My Healthcare AI Predictor')
+st.title('Diabetes Progression Tracker')
 st.write('Enter values below to get a prediction.')
 
 # Example input — repeat st.number_input for each feature in your dataset
