@@ -30,7 +30,7 @@ if st.button('Predict'):
     Prediction = float(result[0])
 
 # Adding visuals to emphasize risk
-    if prediction < 100:
+    if Prediction < 100:
         st.success(f"Prediction Score: {prediction:.2f} — Low Disease Progression Risk")
     elif 100 <= prediction < 200:
         st.warning(f"Prediction Score: {prediction:.2f} — Moderate Disease Progression Risk")
